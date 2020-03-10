@@ -4,7 +4,7 @@ import { Button, Card } from 'react-bootstrap'
 export default function Taco(props) {
     return (
         <div className="cardCon">
-            <Button>Random Taco Me</Button>
+            <Button onClick={props.getTaco}>Random Taco Me</Button>
             <Card bg="dark" text="white" style={{ width: '40rem', margin: '10px' }}>
                 <Card.Body>
                     <h2>Base Layer</h2>
