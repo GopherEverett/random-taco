@@ -5,7 +5,7 @@ export default function Taco(props) {
     return (
         <div className="cardCon">
             <Button onClick={props.getTaco}>Random Taco Me</Button>
-            <Card bg="dark" text="white" style={{ width: '40rem', margin: '10px' }}>
+            <Card bg="dark" text="white" style={{ width: '80vw', margin: '10px' }}>
                 <Card.Body>
                     <h2>Base Layer</h2>
                     <Card.Title>{props.taco.base_layer.name}</Card.Title>
@@ -13,7 +13,7 @@ export default function Taco(props) {
                     <a href={props.taco.base_layer.url}>{props.taco.base_layer.url}</a>
                 </Card.Body>
             </Card >
-            <Card bg="dark" text="white" style={{ width: '40rem', margin: '10px' }}>
+            <Card bg="dark" text="white" style={{ width: '80vw', margin: '10px' }}>
                 <Card.Body>
                     <h2>Mixin</h2>
                     <Card.Title>{props.taco.mixin.name}</Card.Title>
@@ -21,7 +21,7 @@ export default function Taco(props) {
                     <a href={props.taco.mixin.url}>{props.taco.mixin.url}</a>
                 </Card.Body>
             </Card>
-            <Card bg="dark" text="white" style={{ width: '40rem', margin: '10px' }}>
+            <Card bg="dark" text="white" style={{ width: '80vw', margin: '10px' }}>
                 <Card.Body>
                     <h2>Seasoning</h2>
                     <Card.Title>{props.taco.seasoning.name}</Card.Title>
@@ -29,7 +29,7 @@ export default function Taco(props) {
                     <a href={props.taco.seasoning.url}>{props.taco.seasoning.url}</a>
                 </Card.Body>
             </Card>
-            <Card bg="dark" text="white" style={{ width: '40rem', margin: '10px' }}>
+            <Card bg="dark" text="white" style={{ width: '80vw', margin: '10px' }}>
                 <Card.Body>
                     <h2>Shell</h2>
                     <Card.Title>{props.taco.shell.name}</Card.Title>
@@ -37,7 +37,7 @@ export default function Taco(props) {
                     <a href={props.taco.shell.url}>{props.taco.shell.url}</a>
                 </Card.Body>
             </Card>
-            <Card bg="dark" text="white" style={{ width: '40rem', margin: '10px' }}>
+            <Card bg="dark" text="white" style={{ width: '80vw', margin: '10px' }}>
                 <Card.Body>
                     <h2>Condiment</h2>
                     <Card.Title>{props.taco.condiment.name}</Card.Title>

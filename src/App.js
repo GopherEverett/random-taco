@@ -8,9 +8,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function App() {
   const [taco, setTaco] = useState()
   useEffect(() => {
-    // axios.get('https://taco-randomizer.herokuapp.com/random/').then((res) => {
-    //   setTaco(res.data)
-    // })
     getTaco()
   }, [])
 
@@ -35,7 +32,7 @@ function App() {
         </Navbar.Brand>
       </Navbar>
       {taco ?
-        <Taco taco={taco} getTaco={getTaco}/>
+        <Taco taco={taco} getTaco={getTaco} />
         :
         null
       }
