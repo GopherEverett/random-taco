@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function App() {
   const [taco, setTaco] = useState()
   useEffect(() => {
-    axios.get('http://taco-randomizer.herokuapp.com/random/').then((res) => {
+    axios.get('https://taco-randomizer.herokuapp.com/random/').then((res) => {
       setTaco(res.data)
     })
   }, [])
